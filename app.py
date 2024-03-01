@@ -39,6 +39,7 @@ def index():
             print('The Exception message is: ',e)
             return 'something is wrong'
     # return render_template('results.html')
+    # checking in github 
     else:
         return render_template('index.html')
 
